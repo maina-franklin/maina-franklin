@@ -1,11 +1,24 @@
-# Maina Franklin
-**Data Science & Machine Learning Enthusiast**
+# Kenya Financial Inclusion Exploratory Data Analysis (EDA) 2024
 
-Welcome to my profile! I use Python and statistical methods to analyze data, build predictive models, and extract meaningful insights. 
+An automated, modular end-to-end data pipeline analyzing household survey data from the **Kenya FinAccess 2024 Dataset**. This project investigates financial access, geographic distribution of respondents, and correlation structures between household wealth indicators and credit formalization across Kenya.
 
-*Currently working on data science and machine learning projects.*
-- ⚡ Fun fact: Testing local edits and Git push workflows in VS Code!
-### 🛠️ Core Skills & Tools
-- **Languages:** Python, SQL
-- **Libraries:** NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn
-- **Tools:** VS Code, Jupyter Notebooks, Git & GitHub
+---
+
+## 🚀 Project Architecture
+
+The project follows professional software engineering and data science best practices, separating data ingestion, preprocessing, and analytical visualization into clean, maintainable modules:
+
+```text
+kenya-financial-inclusion-eda/
+│
+├── data/                       # Raw Stata dataset (ignored by Git)
+├── outputs/                    # Generated analytical charts and visual assets
+├── src/                        # Source code modules
+│   ├── __init__.py
+│   ├── data_loader.py          # Handles safe ingestion of Stata (.dta) files
+│   ├── preprocessing.py        # Cleans, inspects, and encodes dataset features
+│   └── eda_analysis.py         # Generates statistical distributions and heatmaps
+│
+├── .gitignore                  # Excludes large files, virtual envs, and cache
+├── main.py                     # Master orchestration script
+└── README.md                   # Project documentation
