@@ -22,3 +22,17 @@ kenya-financial-inclusion-eda/
 ├── .gitignore                  # Excludes large files, virtual envs, and cache
 ├── main.py                     # Master orchestration script
 └── README.md                   # Project documentation
+### 📊 Key Visual Insights
+
+| County Respondent Distribution | Wealth vs. Credit Heatmap |
+| :---: | :---: |
+| ![County Distribution](https://raw.githubusercontent.com/maina-franklin/kenya-financial-inclusion-eda/main/outputs/county_distribution.png) | ![Wealth vs Credit](https://raw.githubusercontent.com/maina-franklin/kenya-financial-inclusion-eda/main/outputs/wealth_vs_credit_heatmap.png) |
+
+<details>
+<summary><b>🔍 Click to view Demographic Breakdown</b></summary>
+
+<br>
+
+![Demographic Breakdown](https://raw.githubusercontent.com/maina-franklin/kenya-financial-inclusion-eda/main/outputs/demographic_breakdown.png)
+
+</details>
