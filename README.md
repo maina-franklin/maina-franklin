@@ -30,6 +30,19 @@ kenya-financial-inclusion-eda/
 | ![County Distribution](https://raw.githubusercontent.com/maina-franklin/kenya-financial-inclusion-eda/main/outputs/county_distribution.png) | ![Wealth vs Credit](https://raw.githubusercontent.com/maina-franklin/kenya-financial-inclusion-eda/main/outputs/wealth_vs_credit_heatmap.png) |
 
 <details>
+  ## Model Performance & Evaluation
+
+We evaluated baseline **Logistic Regression** versus a non-linear **Random Forest Classifier** to predict formal credit adoption across 20,871 households.
+
+* **Logistic Regression ROC-AUC:** `0.5751`
+* **Random Forest ROC-AUC:** `0.6387` (Outperforming the linear baseline by capturing complex interactions)
+
+### ROC Curve Comparison
+![ROC Curve](outputs/roc_curve.png)
+
+### Top Predictive Features
+1. **Sex**: `0.5119` importance weight
+2. **Age**: `0.4881` importance weight
 <summary><b>🔍 Click to view Demographic Breakdown</b></summary>
 
 <br>
