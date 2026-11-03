@@ -2,6 +2,11 @@
 
 An automated, modular end-to-end data pipeline analyzing household survey data from the **Kenya FinAccess 2024 Dataset**. This project investigates financial access, geographic distribution of respondents, and correlation structures between household wealth indicators and credit formalization across Kenya.
 
+
+## 🌐 Live Interactive Dashboard
+Check out the live Streamlit web application here: 
+👉 [Kenya FinAccess Credit Predictor Web App](https://kenya-financial-inclusion-eda-ndqbtrtmt4u7yculbpy44e.streamlit.app)
+
 ---
 ## 🚀 Project Architecture
 
