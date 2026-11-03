@@ -38,7 +38,8 @@ We evaluated baseline **Logistic Regression** versus a non-linear **Random Fores
 * **Random Forest ROC-AUC:** `0.6387` (Outperforming the linear baseline by capturing complex interactions)
 
 ### ROC Curve Comparison
-![ROC Curve](outputs/roc_curve.png)
+### ROC Curve Comparison
+![ROC Curve](https://raw.githubusercontent.com/maina-franklin/kenya-financial-inclusion-eda/main/outputs/roc_curve.png)
 
 ### Top Predictive Features
 1. **Sex**: `0.5119` importance weight
