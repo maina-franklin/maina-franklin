@@ -44,7 +44,7 @@ We evaluated baseline **Logistic Regression** versus a non-linear **Random Fores
 ### Top Predictive Features
 1. **Sex**: `0.5119` importance weight
 2. **Age**: `0.4881` importance weight
-<summary><b>🔍 Click to view Demographic Breakdown</b></summary>
+
 
 <br>
 
